@@ -1,0 +1,28 @@
+a[href^="https://www.google.com"] {
+    color: green;
+    margin: 0px 10px 0px 10px
+
+}
+a[target="_blank"]{
+    color: red;
+    margin: 0px 10px 0px 10px;
+}
+
+
+#second-div p:nth-child(2n+2){
+    color: red;
+}
+#second-div p:nth-child(2n+1){
+    color: blue;
+}
+#first-div >p::after {
+    content: "NEW";
+    color: yellow;
+   
+}
+
+    
+p:nth-child(8):hover{
+    font-style: italic;
+    cursor: pointer;
+}
